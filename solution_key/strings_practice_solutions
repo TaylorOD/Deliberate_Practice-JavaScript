@@ -28,7 +28,7 @@ let cityThree = "Middleton"
 
 console.log("I have been to " + cityOne + ", " + cityTwo + ", and " + cityThree + ".")
 
-// # 5. Write a program that sotres a varible as a password. If the password is "Joshua", the program responds "Shall we play a game?". For any other password, the program responds "Access denied"
+//  5. Write a program that sotres a varible as a password. If the password is "Joshua", the program responds "Shall we play a game?". For any other password, the program responds "Access denied"
 
 let password = "Joshua"
 
@@ -38,7 +38,7 @@ if (password === "Joshua") {
   console.log("Access denied.")
 }
 
-// 6. Write a program that uses variables to store a movies's title and lead actor, then prints out a sentence using that information using string concatenation (the + operator).
+//  6. Write a program that uses variables to store a movies's title and lead actor, then prints out a sentence using that information using string concatenation (the + operator).
 
 let movieTitle = "Jurassic Park"
 let movieLeadActor = "Jeff Goldblum"
@@ -55,7 +55,7 @@ if (name === "Santa") {
   console.log("You're not Santa.")
 }
 
-// 8. Write a program that uses variables to store three different website URL's, then prints out a sentence using the URL's using string concatenation (the + operator).
+//  8. Write a program that uses variables to store three different website URL's, then prints out a sentence using the URL's using string concatenation (the + operator).
 
 let websiteOne = "www.reddit.com"
 let websiteTwo = "www.twitter.com"
@@ -63,7 +63,7 @@ let websiteThree = "www.google.com"
 
 console.log("My favorite websites are " + websiteOne + " and " + websiteTwo + " but the most useful website is " + websiteThree + ".")
 
-// 9. Write a program that stores a varible. If the varible is "marco", print "polo".
+//  9. Write a program that stores a varible. If the varible is "marco", print "polo".
 
 let name = "marco"
 
