@@ -19,3 +19,5 @@
 //  10. Write a program that uses variables to store a coffee order and price, then prints the coffe order and price in one line using string concatenation (the + operator).
 
 SOLUTIONS KEY: https://github.com/TaylorOD/Deliberate_Practice-JavaScript/blob/master/solution_key/strings_practice_solutions.js
+
+// Will add template strings soon.
