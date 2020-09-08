@@ -36,7 +36,21 @@ console.log(tenTimesTen)
 
 //   5. Write a function that takes in a string and returns the first letter of the string.Then run the function and print the result.
 
+let firstOfString = function (string) {
+  return string[0]
+}
+
+let gandalf = firstOfString("gandalf")
+console.log(gandalf)
+
 //   6. Write a function that takes in three strings and returns a string that combines all three strings with spaces in between.Then run the function and print the result.
+
+let stringsSpacer = function (string1, string2, string3) {
+  return string1 + " " + string2 + " " + string3
+}
+
+let sandwich = stringsSpacer("Bacon", "Lettuce", "Tomato")
+console.log(sandwich)
 
 //   7. Write a function that takes in a number and returns the number as a string.Then run the function and print the result.
 
