@@ -64,7 +64,7 @@ console.log(largeNumber)
 //   8. Write a function that takes in a string and returns the string repeated 5 times.Then run the function and print the result.
 
 let stringTimesFive = function (string) {
-  return string + string + string + string + string
+  return string.repeat(5)
 }
 let stopYell = stringTimesFive("STOP")
 console.log(stopYell)
