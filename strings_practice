@@ -1,23 +1,21 @@
 //  1. Write a program that uses variables to store a first and last name, then prints the full name in one line using string concatenation (the + operator).
 
-//  2. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string concatenation (the + operator).
+//  2. Write a program that uses variables to store a first and last name, then prints the full name in one line using template strings (the ${} operator).
 
-//  3. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string concatenation (the + operator).
+//  3. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with template strings (the ${} operator).
 
 //  4. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
 
-//  5. Write a program that sotres a varible as a password. If the password is "Joshua", the program responds "Shall we play a game?". For any other password, the program responds "Access denied"
+//  5. Write a program that stores a varible as a password. If the password is "Joshua", the program responds "Shall we play a game?". For any other password, the program responds "Access denied"
 
 //  6. Write a program that uses variables to store a movies's title and lead actor, then prints out a sentence using that information using string concatenation (the + operator).
 
-//  7. Write a program that stores a varible as a name. If the name is "Santa", print "Presents!". If the name is not "Santa", print "You're not Santa."
+//  7. Write a program that uses variables to store three different colors, then prints out a sentence using that information with template strings (the ${} operator).
 
 //  8. Write a program that uses variables to store three different website URL's, then prints out a sentence using the URL's using string concatenation (the + operator).
 
-//  9. Write a program that stores a varible. If the varible is "marco", print "polo".
+//  9. Write a program that uses variables to store a coffee order and price, then prints the coffe order and price in one line using string concatenation (the + operator).
 
-//  10. Write a program that uses variables to store a coffee order and price, then prints the coffe order and price in one line using string concatenation (the + operator).
+//  10. Write a program that uses variables to store a tea order and price, then prints the tea order and price in one line using template strings (the ${} operator).
 
 SOLUTIONS KEY: https://github.com/TaylorOD/Deliberate_Practice-JavaScript/blob/master/solution_key/strings_practice_solutions.js
-
-// Will add template strings soon.
