@@ -80,3 +80,8 @@ console.log(testScores)
 
 //   10. Write a function that takes in a number and returns the number times 10 plus 30. Then run the function and print the result.
 
+let timesTenPlusThirty = function (number) {
+  return (number * 10) + 30
+}
+let fifty = timesTenPlusThirty(50)
+console.log(fifty)
