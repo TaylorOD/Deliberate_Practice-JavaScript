@@ -27,6 +27,13 @@ console.log(subtractionProblem)
 
 //   4. Write a function that takes in a number and returns the number times itself.Then run the function and print the result.
 
+let timesNumber = function (number1) {
+  return number1 * number1
+}
+
+let tenTimesTen = timesNumber(10)
+console.log(tenTimesTen)
+
 //   5. Write a function that takes in a string and returns the first letter of the string.Then run the function and print the result.
 
 //   6. Write a function that takes in three strings and returns a string that combines all three strings with spaces in between.Then run the function and print the result.
