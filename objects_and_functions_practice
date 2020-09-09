@@ -6,7 +6,7 @@
 
 # 4. Make objects to store the title and author for 3 different books. Then print out the third book's author using a function.
 
-# 5. Make objects to store the first name and last name for 3 different people. Then print out the first person's info using a function.
+# 5. Make objects to store the first name and last name for 3 different people. Then print out the first person's info seperated by a space using a function.
 
 # 6. Make an object to store 3 different states and their captitals. Then print write a funcitno to print the 2nd state and capital.
 
