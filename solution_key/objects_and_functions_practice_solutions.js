@@ -1,6 +1,14 @@
 // # 1. Make a object to store a person's first name, last name, and email address. Then print each attribute on separate lines.
 
+let personInfo = {
+  firstName: "Tod",
+  lastName: "Dobbie",
+  emailAddress: "dobbietod@gmail.com"
+}
 
+console.log(personInfo.firstName)
+console.log(personInfo.lastName)
+console.log(personInfo.emailAddress)
 
 // # 2. Make a object to store prices for 3 different menu items.Then print the price of the third to see the result.
 
