@@ -36,11 +36,47 @@ console.log(bookStoreInfo.language)
 
 // # 4. Make objects to store the title and author for 3 different books.Then print out the third book's author using a function.
 
+let bookOneInfo = {
+  title: "Mooncop",
+  author: "Tom Gauld"
+}
+let bookTwoInfo = {
+  title: "Eat a Peach",
+  author: "David Chang"
+}
+let bookThreeInfo = {
+  title: "Chanlands",
+  author: "Sam Heughan"
+}
 
+let getBookAuthor = function (author) {
+  return author.author
+}
 
-// # 5. Make objects to store the first name and last name for 3 different people.Then print out the first person's info using a function.
+console.log(getBookAuthor(bookThreeInfo))
 
+// # 5. Make objects to store the first name and last name for 3 different people. Then print out the first person's info seperated by a space using a function.
 
+let personOneInfo = {
+  firstName: "Sonny",
+  lastName: "Hedgemen"
+}
+
+let personTwoInfo = {
+  firstName: "Luke",
+  lastName: "Bayknock"
+}
+
+let personThreeInfo = {
+  firstName: "Stan",
+  lastName: "Wrinkel"
+}
+
+let nameFinder = function (inputPerson) {
+  return `${inputPerson.firstName} ${inputPerson.lastName}`
+}
+
+console.log(nameFinder(personOneInfo))
 
 // # 6. Make an object to store 3 different states and their captitals.Then print write a funcitno to print the 2nd state and capital.
 
