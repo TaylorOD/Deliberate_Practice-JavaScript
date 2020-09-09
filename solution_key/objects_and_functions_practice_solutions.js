@@ -12,7 +12,13 @@ console.log(personInfo.emailAddress)
 
 // # 2. Make a object to store prices for 3 different menu items.Then print the price of the third to see the result.
 
+let menuItems = {
+  burger: 5.50,
+  fries: 3.50,
+  drink: 2.50
+}
 
+console.log(menuItems.drink)
 
 // # 3. Make a object to store a book's title, author, number of pages, and language. Then print each attribute on separate lines.
 
