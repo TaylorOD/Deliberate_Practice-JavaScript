@@ -78,20 +78,67 @@ let nameFinder = function (inputPerson) {
 
 console.log(nameFinder(personOneInfo))
 
-// # 6. Make an object to store 3 different states and their captitals.Then print write a funcitno to print the 2nd state and capital.
+// # 6. Make an object to store 3 different states and their captitals.
 
+let statesCapitals = {
+  vermont: "Montpillier",
+  colorado: "Denver",
+  texas: "Austin"
+}
 
 
 // # 7. Make an object to store a phone's brand, model, and year. Then print each attribute on separate lines.
 
+let phoneDetails = {
+  brand: "Samsung",
+  model: "Galaxy 2",
+  year: 2017
+}
 
+console.log(phoneDetails.brand)
+console.log(phoneDetails.model)
+console.log(phoneDetails.year)
 
 // # 8. Make objects to store the brand and model for 3 different phones.Then write a function print out the second laptop's model.
 
+let phoneDetailsOne = {
+  brand: "Samsung",
+  model: "Galaxy 2",
+  year: 2017
+}
+let phoneDetailsTwo = {
+  brand: "Samsung",
+  model: "SE",
+  year: 2016
+}
+let phoneDetailsThree = {
+  brand: "Google",
+  model: "Pixal",
+  year: 2015
+}
 
+let phoneModel = function (phone) {
+  return phone.model
+}
+console.log(phoneModel(phoneDetailsTwo))
 
 // # 9. Make an object to store definitions for 2 different words.Then print the 2nd.
 
+let definitions = {
+  hotsauce: "spicy mix of pepers in a liquid form",
+  cookie: "a tasty treat made of sugar and often with nuts"
+}
 
+console.log(definitions.cookie)
 
 // # 10. Make an object to store a shirt's brand, color, and size. Then print each attribute on separate lines.
+
+let shirtInfo = {
+  brand: "Hanes",
+  color: "Blue",
+  size: "L"
+}
+
+console.log(shirtInfo.brand)
+console.log(shirtInfo.color)
+console.log(shirtInfo.size)
