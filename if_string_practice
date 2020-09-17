@@ -8,6 +8,11 @@
 
 // 5. Write a program that uses variables to store a movies's title and lead actor, then prints out a sentence using that information using string concatenation (the + operator).
 
+// 6. Write a function that takes in a string and returns the string with all capital letters. Then run the function and print the result.
+
+// 7. Write a function that takes in a string and returns the first letter of the string. Then run the function and print the result.
+
+// 8. Write a function that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the function and print the result.
 
 
 SOLUTIONS: 
