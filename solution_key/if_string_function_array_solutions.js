@@ -40,7 +40,7 @@ let cityThree = "Houston"
 
 console.log("I'd love to visit " + cityOne + " but I don't know about " + cityTwo + " or " + cityThree + ".")
 
-// 5. Write a program that uses variables to store a movies's title and lead actor, then prints out a sentence using that information using string concatenation (the + operator).
+// 5. Write a program that uses variables to store a movies title and lead actor, then prints out a sentence using that information using string concatenation (the + operator).
 
 let movieStar = "Bruce Willis"
 let movieTitle = "Die Hard"
@@ -70,3 +70,19 @@ let averager = function (n1, n2, n3) {
 }
 
 console.log(averager(99, 76, 89))
+
+// 9. Create an array to store 3 words. Then add two more words to the array and print the array on one line.
+
+const words = ["Bob", "Tangle", "Kite"]
+
+words.push("Can", "Pipe")
+
+console.log(words)
+
+// 10. Create an array to store 4 letters. Then change the second letter to a number and print the array on one line.
+
+const letters = ["t", "l", "f", "h"]
+
+letters.splice(1, 1, 0)
+
+console.log(letters)
