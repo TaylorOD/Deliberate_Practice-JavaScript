@@ -6,7 +6,7 @@
 
 // 4. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
 
-// 5. Write a program that uses variables to store a movies's title and lead actor, then prints out a sentence using that information using string concatenation (the + operator).
+// 5. Write a program that uses variables to store a movies title and lead actor, then prints out a sentence using that information using string concatenation (the + operator).
 
 // 6. Write a function that takes in a string and returns the string with all capital letters. Then run the function and print the result.
 
@@ -14,5 +14,8 @@
 
 // 8. Write a function that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the function and print the result.
 
+// 9. Create an array to store 3 words. Then add two more words to the array and print the array on one line.
 
-SOLUTIONS: 
+// 10. Create an array to store 4 letters. Then change the second letter to a number and print the array on one line.
+
+SOLUTIONS: https://github.com/TaylorOD/Deliberate_Practice-JavaScript/blob/master/solution_key/if_string_function_array_solutions.js
