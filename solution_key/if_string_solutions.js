@@ -46,3 +46,27 @@ let movieStar = "Bruce Willis"
 let movieTitle = "Die Hard"
 
 console.log(`My favorite character in ${movieTitle} is ${movieStar}. But the German bad guy is cool too.`)
+
+// 6. Write a function that takes in a string and returns the string with all capital letters. Then run the function and print the result.
+
+let stringCaps = function (string) {
+  return string.toUpperCase()
+}
+
+console.log(stringCaps("Howdy!"))
+
+// 7. Write a function that takes in a string and returns the first letter of the string. Then run the function and print the result.
+
+let firstFinder = function (string) {
+  return string[0]
+}
+console.log(firstFinder("Software"))
+
+// 8. Write a function that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the function and print the result.
+
+let averager = function (n1, n2, n3) {
+  let average = (n1 + n2 + n3) / 3
+  return average
+}
+
+console.log(averager(99, 76, 89))
