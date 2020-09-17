@@ -31,3 +31,18 @@ if (num < 0 && numTwo > 0) {
 } else {
   console.log(0)
 }
+
+// 4. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
+
+let cityOne = "Chicago"
+let cityTwo = "Greenville"
+let cityThree = "Houston"
+
+console.log("I'd love to visit " + cityOne + " but I don't know about " + cityTwo + " or " + cityThree + ".")
+
+// 5. Write a program that uses variables to store a movies's title and lead actor, then prints out a sentence using that information using string concatenation (the + operator).
+
+let movieStar = "Bruce Willis"
+let movieTitle = "Die Hard"
+
+console.log(`My favorite character in ${movieTitle} is ${movieStar}. But the German bad guy is cool too.`)
