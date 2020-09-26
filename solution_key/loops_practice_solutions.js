@@ -80,4 +80,13 @@ while (index <= 144) {
 
 // # 9. Write a while loop that asks the user to enter a word and will run forever until the user enters a word with more than 5 letters.
 
+
+
 // # 10. Write a while loop that prints the even numbers from 2 to 40.
+
+let index = 2
+
+while (index <= 40) {
+  console.log(index)
+  index += 2
+}
