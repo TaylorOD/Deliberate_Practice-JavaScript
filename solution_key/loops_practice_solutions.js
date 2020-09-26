@@ -1,10 +1,10 @@
 // # 1. Write a while loop to print the numbers 1 through 10.
 
-let count = 1
+let index = 1
 
-while (count <= 10) {
-  console.log(count)
-  count++
+while (index <= 10) {
+  console.log(index)
+  index++
 }
 
 // # 2. Write a while loop that prints the word "hello" 5 times.
@@ -15,7 +15,19 @@ while (index <= 5) {
   index++
 }
 
-// # 3. Write a while loop that asks the user to enter a word and will run forever until the user enters the word "stop".
+// # 3. Write a while true loop that will print the numbers 1 through 100.
+
+let index = 1
+
+while (true) {
+  console.log(index)
+
+  if (index >= 100) {
+    break
+  } else {
+    index++
+  }
+}
 
 // # 4. Write a while loop that prints the numbers 0 through 100, increasing by 5 each time.
 
