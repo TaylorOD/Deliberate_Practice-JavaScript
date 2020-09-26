@@ -78,9 +78,18 @@ while (index <= 144) {
   index++
 }
 
-// # 9. Write a while loop that asks the user to enter a word and will run forever until the user enters a word with more than 5 letters.
+// # 9. Write a while true loop that prints the phrase "cookie" 15 times.
 
+let index = 1
 
+while (true) {
+  if (index <= 15) {
+    console.log("cookie")
+    index++
+  } else {
+    break
+  }
+}
 
 // # 10. Write a while loop that prints the even numbers from 2 to 40.
 
