@@ -47,7 +47,18 @@ while (index <= 10) {
   index++
 }
 
-// # 6. Write a while loop that asks the user to enter a number and will run forever until the user enters a number greater than 10.
+// # 6. Write a while true loop that will run forever and print each number until the number greater than 10.
+
+let index = 0
+
+while (true) {
+  if (index > 10) {
+    break
+  } else {
+    console.log(index)
+    index++
+  }
+}
 
 // # 7. Write a while loop that prints the numbers 50 to 70.
 
