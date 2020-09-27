@@ -15,6 +15,14 @@ console.log(letters)
 
 // # 3. Create an array to store 5 numbers. Then print out each number on separate lines with a while loop.
 
+let numbers = [5, 19, 100, 3, 49]
+
+console.log(numbers[0])
+console.log(numbers[1])
+console.log(numbers[2])
+console.log(numbers[3])
+console.log(numbers[4])
+
 // # 4. Create an array to store 1 number. Then add three more numbers to the array and print the array on one line.
 
 // # 5. Create an array to store 3 strings with lower case letters. Then change the third string to have all capital letters and print the array on one line.
