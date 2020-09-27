@@ -57,4 +57,11 @@ console.log(numbers)
             
 // # 9. Create an array to store 2 numbers. Then print out each number on separate lines with a while loop.
 
+let numbers = [19, 100]
+let index = 0
+while (index < numbers.length) {
+  console.log(numbers[index])
+  index++
+}
+
 // # 10. Create an array to store names of 3 different countries. Then add one more country and print the array one line.
