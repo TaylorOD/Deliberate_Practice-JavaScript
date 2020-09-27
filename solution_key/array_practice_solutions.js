@@ -37,6 +37,12 @@ console.log(upperCaseLetters)
 
 // # 6. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
 
+let names = ["Jon", "Sally", "Beth"]
+
+console.log(names[0])
+console.log(names[1])
+console.log(names[2])
+
 // # 7. Create an array to store 2 strings. Then add one string to the array and print the array on one line.
 
 // # 8. Create an array to store 5 numbers. Then change the first number to 10 times its original value and print the array on one line.
