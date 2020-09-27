@@ -63,3 +63,7 @@ while (index < numbers.length) {
 }
 
 // # 10. Create an array to store names of 3 different countries. Then add one more country and print the array one line.
+
+let countries = ["Brazil", "USA", "France"]
+countries.unshift("Germany")
+console.log(countries)
