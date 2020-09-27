@@ -2,26 +2,23 @@
 
 let words = ["bacon", "cookie", "toothpaste"]
 words.push("fishstick", "water")
-
 console.log(words)
 
 // # 2. Create an array to store 4 letters. Then change the second letter to a number and print the array on one line.
 
 let letters = ["l", "f", "h", "e"]
-
 letters[1] = 10
-
 console.log(letters)
 
 // # 3. Create an array to store 5 numbers. Then print out each number on separate lines with a while loop.
 
 let numbers = [5, 19, 100, 3, 49]
+let index = 0
 
-console.log(numbers[0])
-console.log(numbers[1])
-console.log(numbers[2])
-console.log(numbers[3])
-console.log(numbers[4])
+while (index < numbers.length) {
+  console.log(numbers[index])
+  index++
+}
 
 // # 4. Create an array to store 1 number. Then add three more numbers to the array and print the array on one line.
 
@@ -38,10 +35,11 @@ console.log(upperCaseLetters)
 // # 6. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
 
 let names = ["Jon", "Sally", "Beth"]
-
-console.log(names[0])
-console.log(names[1])
-console.log(names[2])
+let index = 0
+while (index < names.length) {
+  console.log(names[index])
+  index++
+}
 
 // # 7. Create an array to store 2 strings. Then add one string to the array and print the array on one line.
 
