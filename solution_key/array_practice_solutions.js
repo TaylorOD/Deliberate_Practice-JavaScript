@@ -25,6 +25,10 @@ console.log(numbers[4])
 
 // # 4. Create an array to store 1 number. Then add three more numbers to the array and print the array on one line.
 
+let numbers = [1]
+numbers.push(11, 6, 100)
+console.log(numbers)
+
 // # 5. Create an array to store 3 strings with lower case letters. Then change the third string to have all capital letters and print the array on one line.
 
 // # 6. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
