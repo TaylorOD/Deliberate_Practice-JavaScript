@@ -31,9 +31,9 @@ console.log(numbers)
 
 // # 5. Create an array to store 3 strings with lower case letters. Then change the third string to have all capital letters and print that string on a line.
 
-let lower_case_letters = ["hakeem", "taylor", "bruce"]
-let upper_case_letters = lower_case_letters[2].toUpperCase()
-console.log(upper_case_letters)
+let lowerCaseLetters = ["hakeem", "taylor", "bruce"]
+let upperCaseLetters = lowerCaseLetters[2].toUpperCase()
+console.log(upperCaseLetters)
 
 // # 6. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
 
