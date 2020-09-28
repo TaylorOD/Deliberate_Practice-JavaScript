@@ -52,6 +52,10 @@ console.log(fiveReturn("Push"))
 
 // # 7. Create an array to store 2 strings. Then add one string to the array and print the array on one line.
 
+let strings = ["attack", "roll"]
+strings.push("dead")
+console.log(strings)
+
 // # 8. Write a while loop that prints the numbers 0 through 100, increasing by 5 each time.
 
 // # 9. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
