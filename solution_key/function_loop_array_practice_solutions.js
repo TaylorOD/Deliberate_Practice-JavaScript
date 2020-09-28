@@ -58,6 +58,12 @@ console.log(strings)
 
 // # 8. Write a while loop that prints the numbers 0 through 100, increasing by 5 each time.
 
+let index = 0
+while (index <= 100) {
+  console.log(index)
+  index += 5
+}
+
 // # 9. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
 
 // # 10. Write a function that takes in two numbers and returns the first number subtracted by the second. Then run the function and print the result.
