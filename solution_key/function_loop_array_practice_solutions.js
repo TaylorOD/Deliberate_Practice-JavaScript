@@ -9,6 +9,15 @@ while (index < numbers.length) {
 
 // # 2. Write a while true loop that will print the numbers 1 through 100.
 
+let index = 1
+while (true) {
+  if (index <= 100) {
+    console.log(index)
+    index++
+  } else {
+    break
+  }
+}
 
 // # 3. Write a function that takes in a string and returns the first letter of the string. Then run the function and print the result.
 
