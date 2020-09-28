@@ -37,6 +37,12 @@ while (index < numbers.length) {
 
 // # 5. Write a while loop that prints the phrase "Around the world" 144 times.
 
+let index = 1
+while (index <= 144) {
+  console.log("Around the world")
+  index++
+}
+
 // # 6. Write a function that takes in a string and returns the string repeated 5 times. Then run the function and print the result.
 
 // # 7. Create an array to store 2 strings. Then add one string to the array and print the array on one line.
