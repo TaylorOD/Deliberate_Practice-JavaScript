@@ -75,3 +75,7 @@ while (index < names.length) {
 
 // # 10. Write a function that takes in two numbers and returns the first number subtracted by the second. Then run the function and print the result.
 
+let firstMinusSecond = function (numberOne, numberTwo) {
+  return numberOne - numberTwo
+}
+console.log(firstMinusSecond(100, 70))
