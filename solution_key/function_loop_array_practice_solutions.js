@@ -28,6 +28,13 @@ console.log(firstOfString("knight"))
 
 // # 4. Create an array to store 2 numbers. Then print out each number on separate lines with a while loop.
 
+let numbers = [1, 99]
+let index = 0
+while (index < numbers.length) {
+  console.log(numbers[index])
+  index++
+}
+
 // # 5. Write a while loop that prints the phrase "Around the world" 144 times.
 
 // # 6. Write a function that takes in a string and returns the string repeated 5 times. Then run the function and print the result.
