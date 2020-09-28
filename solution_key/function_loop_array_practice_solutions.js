@@ -66,5 +66,12 @@ while (index <= 100) {
 
 // # 9. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
 
+let names = ["Taylor", "David", "Beverly"]
+let index = 0
+while (index < names.length) {
+  console.log(names[index])
+  index++
+}
+
 // # 10. Write a function that takes in two numbers and returns the first number subtracted by the second. Then run the function and print the result.
 
