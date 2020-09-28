@@ -1,6 +1,14 @@
 // # 1. Create an array to store 5 numbers. Then print out each number on separate lines with a while loop.
 
+let numbers = [1, 2, 3, 4, 5]
+let index = 0
+while (index < numbers.length) {
+  console.log(numbers[index])
+  index++
+}
+
 // # 2. Write a while true loop that will print the numbers 1 through 100.
+
 
 // # 3. Write a function that takes in a string and returns the first letter of the string. Then run the function and print the result.
 
