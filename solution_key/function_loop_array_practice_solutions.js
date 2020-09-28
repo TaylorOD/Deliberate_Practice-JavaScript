@@ -21,7 +21,7 @@ while (true) {
 
 // # 3. Write a function that takes in a string and returns the first letter of the string. Then run the function and print the result.
 
-let firstOfString = function (string) {
+const firstOfString = function (string) {
   return string[0]
 }
 console.log(firstOfString("knight"))
@@ -44,6 +44,11 @@ while (index <= 144) {
 }
 
 // # 6. Write a function that takes in a string and returns the string repeated 5 times. Then run the function and print the result.
+
+const fiveReturn = function (string) {
+  return string + string + string + string + string
+}
+console.log(fiveReturn("Push"))
 
 // # 7. Create an array to store 2 strings. Then add one string to the array and print the array on one line.
 
