@@ -8,11 +8,10 @@ console.log(numberTimesTwo(5))
 
 //   2. Write a function that takes in a string and returns the string with all capital letters. Then run the function and print the result.
 
-let allCaps = function (string) {
+const capitalStrings = function (string) {
   return string.toUpperCase()
 }
-let canYouHearMe = allCaps("can you hear me?")
-console.log(canYouHearMe)
+console.log(capitalStrings("hello there!"))
 
 //   3. Write a function that takes in two numbers and returns the first number subtracted by the second.Then run the function and print the result.
 
