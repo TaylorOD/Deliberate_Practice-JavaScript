@@ -43,12 +43,10 @@ console.log(combineThreeStrings("water", "taste", "good"))
 
 //   7. Write a function that takes in a number and returns the number as a string.Then run the function and print the result.
 
-let numberToString = function (number) {
+const numberToString = function (number) {
   return number.toString()
 }
-
-let largeNumber = numberToString(1929)
-console.log(largeNumber)
+console.log(numberToString(199))
 
 //   8. Write a function that takes in a string and returns the string repeated 5 times.Then run the function and print the result.
 
