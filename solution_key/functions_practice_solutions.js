@@ -22,12 +22,10 @@ console.log(firstMinusSecond(1000, 100))
 
 //   4. Write a function that takes in a number and returns the number times itself.Then run the function and print the result.
 
-let timesNumber = function (number1) {
-  return number1 * number1
+const numberTimesNumber = function (number) {
+  return number * number
 }
-
-let tenTimesTen = timesNumber(10)
-console.log(tenTimesTen)
+console.log(numberTimesNumber(19))
 
 //   5. Write a function that takes in a string and returns the first letter of the string.Then run the function and print the result.
 
