@@ -36,12 +36,10 @@ console.log(firstOfString("taste"))
 
 //   6. Write a function that takes in three strings and returns a string that combines all three strings with spaces in between.Then run the function and print the result.
 
-let stringsSpacer = function (string1, string2, string3) {
+const combineThreeStrings = function (string1, string2, string3) {
   return string1 + " " + string2 + " " + string3
 }
-
-let sandwich = stringsSpacer("Bacon", "Lettuce", "Tomato")
-console.log(sandwich)
+console.log(combineThreeStrings("water", "taste", "good"))
 
 //   7. Write a function that takes in a number and returns the number as a string.Then run the function and print the result.
 
