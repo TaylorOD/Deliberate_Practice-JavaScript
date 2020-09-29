@@ -57,11 +57,10 @@ console.log(stringFiveTimes("loops"))
 
 //   9. Write a function that takes in 3 numbers and returns the average(the sum divided by 3.0). Then run the function and print the result.
 
-let average = function (n1, n2, n3) {
-  return (n1 + n2 + n3) / 3
+const averageOfThree = function (number1, number2, number3) {
+  return (number1 + number2 + number3) / 3
 }
-let testScores = average(68, 100, 83)
-console.log(testScores)
+console.log(averageOfThree(99, 68, 82))
 
 //   10. Write a function that takes in a number and returns the number times 10 plus 30. Then run the function and print the result.
 
