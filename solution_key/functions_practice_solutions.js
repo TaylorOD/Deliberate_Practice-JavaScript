@@ -1,14 +1,12 @@
 // 1. Write a function that takes in a number and returns the number times two. Then run the function and print the result.
 
-let timesTwo = function (n1) {
-  return n1 * n1
+const numberTimesTwo = function (number) {
+  return number * 2
 }
 
-let multiply = timesTwo(1009)
-console.log(multiply)
+console.log(numberTimesTwo(5))
 
-
-//   2. Write a function that takes in a string and returns the string with all capital letters.Then run the function and print the result.
+//   2. Write a function that takes in a string and returns the string with all capital letters. Then run the function and print the result.
 
 let allCaps = function (string) {
   return string.toUpperCase()
