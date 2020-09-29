@@ -29,12 +29,10 @@ console.log(numberTimesNumber(19))
 
 //   5. Write a function that takes in a string and returns the first letter of the string.Then run the function and print the result.
 
-let firstOfString = function (string) {
+const firstOfString = function (string) {
   return string[0]
 }
-
-let gandalf = firstOfString("gandalf")
-console.log(gandalf)
+console.log(firstOfString("taste"))
 
 //   6. Write a function that takes in three strings and returns a string that combines all three strings with spaces in between.Then run the function and print the result.
 
