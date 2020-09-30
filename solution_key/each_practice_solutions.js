@@ -108,3 +108,10 @@ peopleInfo.forEach(function (people) {
 
 // # 10. Start with an array of numbers and create a new array with each number converted into a string.
 // #     For example, [1, 2, 3] becomes ["1", "2", "3"].
+
+let numbers = [1, 2, 3]
+numbers.forEach(function (number) {
+  let numbersAsStrings = []
+  numbersAsStrings.push(number.toString())
+  console.log(numbersAsStrings)
+})
