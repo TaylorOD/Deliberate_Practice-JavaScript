@@ -57,6 +57,19 @@ strings.forEach(function (string) {
 // #  6. Start with an array of hashes and create a new array of number values from each hash's :age key.
 // #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [27, 16].
 
+let peopleInfo = [{
+  name: "Alice",
+  age: 27
+}, {
+  name: "Blane",
+  age: 16
+}]
+peopleInfo.forEach(function (people) {
+  let peopleAges = []
+  peopleAges.push(people.age)
+  console.log(peopleAges)
+})
+
 // #  7. Start with an array of numbers and create a new array with each number divided by 2.
 // #     For example, [1, 2, 3] becomes [0.5, 1.0, 1.5].
 
