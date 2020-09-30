@@ -10,6 +10,14 @@ numbers.forEach(function (number) {
 // #  2. Start with an array of strings and create a new array with each string upcased.
 // #     For example, ["hello", "goodbye"] becomes ["HELLO", "GOODBYE"].
 
+let strings = ["hello", "goodbye"]
+
+strings.forEach(function (string) {
+  let upcaseStrings = []
+  upcaseStrings.push(string.toUpperCase())
+  console.log(upcaseStrings)
+})
+
 // #  3. Start with an array of hashes and create a new array of string values from each hash's :name key.
 // #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes ["Alice", "Blane"].
 
