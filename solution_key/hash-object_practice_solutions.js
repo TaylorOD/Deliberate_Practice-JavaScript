@@ -41,6 +41,17 @@ console.log(menuItems)
 
 // # 4. Make a hash to store a book's title, author, number of pages, and language. Then print each attribute on separate lines.
 
+let bookInfo = {
+  title: "The Stand",
+  author: "Stephen King",
+  pages: 900,
+  language: "English"
+}
+console.log(bookInfo.title)
+console.log(bookInfo.author)
+console.log(bookInfo.pages)
+console.log(bookInfo.language)
+
 // # 5. Make an array of hashes to store the title and author for 3 different books. Then print out the third book's author.
 
 // # 6. Make a hash to store 3 different states and their captitals. Then add a new state and capital and print the hash to see the result.
