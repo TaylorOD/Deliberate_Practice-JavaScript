@@ -11,6 +11,24 @@ console.log(personInfo.email)
 
 // # 2. Make an array of hashes to store the first name and last name for 3 different people. Then print out the first person's info.
 
+let peoplesInfo = [{
+
+  firstName: "Ken",
+  lastName: "Jennings"
+
+}, {
+
+  firstName: "Ken",
+  lastName: "Bone"
+
+}, {
+
+  firstName: "Randy",
+  lastName: "Marsh"
+
+}]
+console.log(peoplesInfo[0])
+
 // # 3. Make a hash to store prices for 3 different menu items. Then add a new menu item and price and print the hash to see the result.
 
 // # 4. Make a hash to store a book's title, author, number of pages, and language. Then print each attribute on separate lines.
