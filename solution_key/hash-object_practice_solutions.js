@@ -84,6 +84,15 @@ console.log(statesAndCapitals)
 
 // # 7. Make a hash to store a laptop's brand, model, and year. Then print each attribute on separate lines.
 
+let laptopInfo = {
+  brand: "Apple",
+  model: "Mac Book Air",
+  year: 2018
+}
+console.log(laptopInfo.brand)
+console.log(laptopInfo.model)
+console.log(laptopInfo.year)
+
 // # 8. Make an array of hashes to store the brand and model for 3 different laptops. Then print out the second laptop's model.
 
 // # 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
