@@ -109,4 +109,11 @@ console.log(laptopsInfo[1].model)
 
 // # 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
 
+let definitions = {
+  logorrhea: "excessive and often incoherent talkativeness or wordiness",
+  cat: "a carnivorous mammal (Felis catus) long domesticated as a pet and for catching rats and mice",
+}
+definitions.mogollon = "a prehistoric American Indian people inhabiting the mountains of eastern Arizona and western New Mexico"
+console.log(definitions)
+
 // # 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
