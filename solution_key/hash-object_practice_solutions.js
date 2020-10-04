@@ -117,3 +117,12 @@ definitions.mogollon = "a prehistoric American Indian people inhabiting the moun
 console.log(definitions)
 
 // # 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
+
+let shirtInfo = {
+  brand: "Hanes",
+  color: "Blue",
+  size: "L"
+}
+console.log(shirtInfo.brand)
+console.log(shirtInfo.color)
+console.log(shirtInfo.size)
