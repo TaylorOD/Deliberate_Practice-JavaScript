@@ -74,6 +74,14 @@ console.log(booksInfo[2].author)
 
 // # 6. Make a hash to store 3 different states and their captitals. Then add a new state and capital and print the hash to see the result.
 
+let statesAndCapitals = {
+  alabama: "montgomery",
+  ohio: "Columbus",
+  oklahoma: "Oklahoma City",
+}
+statesAndCapitals.texas = "Austin"
+console.log(statesAndCapitals)
+
 // # 7. Make a hash to store a laptop's brand, model, and year. Then print each attribute on separate lines.
 
 // # 8. Make an array of hashes to store the brand and model for 3 different laptops. Then print out the second laptop's model.
