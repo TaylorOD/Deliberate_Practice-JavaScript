@@ -132,6 +132,23 @@ console.log(result)
 // #  8. Use a nested loop to find the largest sum of any two different numbers within an array.
 // #     For example, [1, 8, 3, 10] becomes 18.
 
+let numbers = [1, 8, 3, 10]
+let result = numbers[0] + numbers[1]
+let index1 = 0
+while (index1 < numbers.length) {
+  let index2 = 0
+  while (index2 < numbers.length) {
+    if (index1 !== index2) {
+      if (numbers[index1] + numbers[index2] > result) {
+        result = numbers[index1] + numbers[index2]
+      }
+    }
+    index2 += 1
+  }
+  index1 += 1
+}
+console.log(result)
+
 // #  9. Use nested loops with an array of numbers to compute a new array containing the first two numbers (from the original array) that add up to the number 10. If there are no two numbers that add up to 10, return false.
 // #     For example, [2, 5, 3, 1, 0, 7, 11] becomes [3, 7].
 
