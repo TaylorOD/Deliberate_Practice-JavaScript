@@ -171,3 +171,22 @@ console.log(result)
 
 // # 10. Use a nested loop to convert an array of string arrays into a single string.
 // #     For example, [["a", "man"], ["a", "plan"], ["a", "canal"], ["panama"]] becomes "amanaplanacanalpanama".
+
+let strings = [
+  ["a", "man"],
+  ["a", "plan"],
+  ["a", "canal"],
+  ["panama"]
+]
+let result = ""
+let index1 = 0
+while (index1 < strings.length) {
+  let index2 = 0
+  let currentLoop = strings[index1]
+  while (index2 < currentLoop.length) {
+    result = result + currentLoop[index2]
+    index2 += 1
+  }
+  index1 += 1
+}
+console.log(result)
