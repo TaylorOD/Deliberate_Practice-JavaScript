@@ -58,6 +58,23 @@ console.log(combinedStrings)
 // #  4. Use a nested loop to find the largest product of any two different numbers within a given array.
 // #     For example, [5, -2, 1, -9, -7, 2, 6] becomes 63.
 
+let numbers = [5, -2, 1, -9, -7, 2, 6]
+let largestProduct = numbers[0] * numbers[1]
+let index1 = 0
+while (index1 < numbers.length) {
+  let index2 = 0
+  while (index2 < numbers.length) {
+    if (index1 !== index2) {
+      if (numbers[index1] * numbers[index2] > largestProduct) {
+        largestProduct = numbers[index1] * numbers[index2]
+      }
+    }
+    index2 += 1
+  }
+  index1 += 1
+}
+console.log(largestProduct)
+
 // #  5. Use a nested loop to compute the sum of all the numbers in an array of number pairs.
 // #     For example, [[1, 3], [8, 9], [2, 16]] becomes 39.
 
