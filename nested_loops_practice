@@ -28,4 +28,4 @@
 // # 10. Use a nested loop to convert an array of string arrays into a single string.
 // #     For example, [["a", "man"], ["a", "plan"], ["a", "canal"], ["panama"]] becomes "amanaplanacanalpanama".
 
-SOLUTIONS: 
+SOLUTIONS: https://github.com/TaylorOD/Deliberate_Practice-JavaScript/blob/master/solution_key/nested_loops_practice_solutions.js
