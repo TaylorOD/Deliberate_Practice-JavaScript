@@ -99,6 +99,20 @@ console.log(result)
 // #  6. Use a nested loop with two arrays of numbers to create a new array of the sums of each combination of numbers.
 // #     For example, [1, 2] and [6, 7, 8] becomes [7, 8, 9, 8, 9, 10].
 
+let numbersOne = [1, 2]
+let numbersTwo = [6, 7, 8]
+let result = []
+let index1 = 0
+while (index1 < numbersOne.length) {
+  let index2 = 0
+  while (index2 < numbersTwo.length) {
+    result.push(numbersOne[index1] + numbersTwo[index2])
+    index2 += 1
+  }
+  index1 += 1
+}
+console.log(result)
+
 // #  7. Use a nested loop with an array of numbers to compute an array with every combination of products from each number.
 // #     For example, [2, 8, 3] becomes [4, 16, 6, 16, 64, 24, 6, 24, 9].
 
