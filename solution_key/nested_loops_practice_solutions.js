@@ -152,5 +152,22 @@ console.log(result)
 // #  9. Use nested loops with an array of numbers to compute a new array containing the first two numbers (from the original array) that add up to the number 10. If there are no two numbers that add up to 10, return false.
 // #     For example, [2, 5, 3, 1, 0, 7, 11] becomes [3, 7].
 
+let numbers = [2, 5, 3, 1, 0, 7, 11]
+var result = false
+let index1 = 0
+while (index1 < numbers.length) {
+  let index2 = 0
+  while (index2 < numbers.length) {
+    if (index1 !== index2) {
+      if (numbers[index1] + numbers[index2] === 10 && result === false) {
+        result = [numbers[index1], numbers[index2]]
+      }
+    }
+    index2 += 1
+  }
+  index1 += 1
+}
+console.log(result)
+
 // # 10. Use a nested loop to convert an array of string arrays into a single string.
 // #     For example, [["a", "man"], ["a", "plan"], ["a", "canal"], ["panama"]] becomes "amanaplanacanalpanama".
