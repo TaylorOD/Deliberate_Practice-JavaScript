@@ -78,6 +78,24 @@ console.log(largestProduct)
 // #  5. Use a nested loop to compute the sum of all the numbers in an array of number pairs.
 // #     For example, [[1, 3], [8, 9], [2, 16]] becomes 39.
 
+let numberPairs = [
+  [1, 3],
+  [8, 9],
+  [2, 16]
+]
+let result = 0
+let index1 = 0
+while (index1 < numberPairs.length) {
+  let index2 = 0
+  let currentLoop = numberPairs[index1]
+  while (index2 < currentLoop.length) {
+    result = result + currentLoop[index2]
+    index2 += 1
+  }
+  index1 += 1
+}
+console.log(result)
+
 // #  6. Use a nested loop with two arrays of numbers to create a new array of the sums of each combination of numbers.
 // #     For example, [1, 2] and [6, 7, 8] becomes [7, 8, 9, 8, 9, 10].
 
