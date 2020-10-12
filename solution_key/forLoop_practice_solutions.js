@@ -44,13 +44,17 @@ let numbersPlusSeven = []
 for (var index = 0; index < numbers.length; index += 1) {
   numbersPlusSeven.push(numbers[index] + 7)
 }
-console.log(numbersPlusSeven
+console.log(numbersPlusSeven)
 
 // #  5. Start with an array of strings and create a new array with each string's length.
 // #     For example, ["hello", "goodbye"] becomes [5, 7].
 
-// let strings = ["hello", "goodbye"]
-
+let strings = ["hello", "goodbye"]
+let stringsLength = []
+for (var index = 0; index < strings.length; index += 1) {
+  stringsLength.push(strings[index].length)
+}
+console.log(stringsLength)
 
 // #  6. Start with an array of hashes and create a new array of number values from each hash's :age key.
 // #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [27, 16].
