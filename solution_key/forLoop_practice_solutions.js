@@ -1,46 +1,50 @@
 // #  1. Start with an array of numbers and create a new array with each number times 3.
 // #     For example, [1, 2, 3] becomes [3, 6, 9].
 
-// let numbers = [1, 2, 3]
-// let numbersTimesThree = []
-// for (var index = 0; index < numbers.length; index += 1) {
-//   numbersTimesThree.push(numbers[index] * 3)
-// }
-// console.log(numbersTimesThree)
+let numbers = [1, 2, 3]
+let numbersTimesThree = []
+for (var index = 0; index < numbers.length; index += 1) {
+  numbersTimesThree.push(numbers[index] * 3)
+}
+console.log(numbersTimesThree)
 
 // #  2. Start with an array of strings and create a new array with each string upcased.
 // #     For example, ["hello", "goodbye"] becomes ["HELLO", "GOODBYE"].
 
-// let strings = ["hello", "goodbye"]
-// let stringsUpcase = []
-// for (var index = 0; index < strings.length; index += 1) {
-//   stringsUpcase.push(strings[index].toUpperCase())
-// }
-// console.log(stringsUpcase)
+let strings = ["hello", "goodbye"]
+let stringsUpcase = []
+for (var index = 0; index < strings.length; index += 1) {
+  stringsUpcase.push(strings[index].toUpperCase())
+}
+console.log(stringsUpcase)
 
 
 // #  3. Start with an array of hashes and create a new array of string values from each hash's :name key.
 // #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes ["Alice", "Blane"].
 
-// let peopleInfo = [{
-//   name: "Alice",
-//   age: 27
-// }, {
-//   name: "Blane",
-//   age: 16
-// }]
-// let peopleNames = []
+let peopleInfo = [{
+  name: "Alice",
+  age: 27
+}, {
+  name: "Blane",
+  age: 16
+}]
+let peopleNames = []
 
-// for (var index = 0; index < peopleInfo.length; index += 1) {
-//   peopleNames.push(peopleInfo[index].name)
-// }
-// console.log(peopleNames)
+for (var index = 0; index < peopleInfo.length; index += 1) {
+  peopleNames.push(peopleInfo[index].name)
+}
+console.log(peopleNames)
 
 // #  4. Start with an array of numbers and create a new array with each number plus 7.
 // #     For example, [1, 2, 3] becomes [8, 9, 10].
 
-// let numbers = [1, 2, 3]
-
+let numbers = [1, 2, 3]
+let numbersPlusSeven = []
+for (var index = 0; index < numbers.length; index += 1) {
+  numbersPlusSeven.push(numbers[index] + 7)
+}
+console.log(numbersPlusSeven
 
 // #  5. Start with an array of strings and create a new array with each string's length.
 // #     For example, ["hello", "goodbye"] becomes [5, 7].
