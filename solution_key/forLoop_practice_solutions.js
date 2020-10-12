@@ -111,4 +111,9 @@ console.log(peopleAgesTimesTwo)
 // # 10. Start with an array of numbers and create a new array with each number converted into a string.
 // #     For example, [1, 2, 3] becomes ["1", "2", "3"].
 
-// let numbers = [1, 2, 3]
+let numbers = [1, 2, 3]
+let numbersAsStrings = []
+for (var index = 0; index < numbers.length; index += 1) {
+  numbersAsStrings.push(numbers[index] + "")
+}
+console.log(numbersAsStrings)
