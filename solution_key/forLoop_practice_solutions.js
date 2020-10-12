@@ -85,8 +85,13 @@ console.log(numbersHalf)
 // #  8. Start with an array of strings and create a new array with each string's first letter only.
 // #     For example, ["hello", "goodbye"] becomes ["h", "g"].
 
-// let strings = ["hello", "goodbye"]
-
+let strings = ["hello", "goodbye"]
+let stringsFirstLetter = []
+for (var index = 0; index < strings.length; index += 1) {
+  stringsFirstLetter.push(strings[index][0])
+}
+console.log(stringsFirstLetter)
+            
 // # 9.  Start with an array of hashes and create a new array of number values from each hash's :age key times 2.
 // #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [54, 32].
 
