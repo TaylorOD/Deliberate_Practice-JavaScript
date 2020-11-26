@@ -66,14 +66,64 @@ console.log(stringsArrayLengthLong)
 // 6. Start with an array of hashes and create a new array of number values from each hash's :age key.
 // For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [27, 16].
 
+const peopleInformation = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
+
+const peopleAges = peopleInformation.map(person => person.age)
+console.log(peopleAges)
+
+const peopleAgesLong = peopleInformation.map(function(person) {
+  return person.age
+})
+console.log(peopleAgesLong)
+
 // 7. Start with an array of numbers and create a new array with each number divided by 2.
 // For example, [1, 2, 3] becomes [0.5, 1.0, 1.5].
+
+const arrayNumbers = [1, 2, 3]
+
+const numbersHalved = arrayNumbers.map(number => number / 2)
+console.log(numbersHalved)
+
+const numbersHalvedLong = arrayNumbers.map(function(number) {
+  return number / 2
+})
+console.log(numbersHalvedLong)
 
 // 8. Start with an array of strings and create a new array with each string's first letter only.
 // For example, ["hello", "goodbye"] becomes ["h", "g"].
 
+const stringArray = ["hello", "goodbye"]
+
+const stringFirst = stringArray.map(string => string[0])
+console.log(stringFirst)
+
+const stringFirstLong = stringArray.map(function(string) {
+  return string[0]
+})
+console.log(stringFirstLong)
+
 // 9.  Start with an array of hashes and create a new array of number values from each hash's :age key times 2.
 // For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [54, 32].
 
+const personsInfo = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
+
+const agesTimesTwo = personsInfo.map(person => person.age * 2)
+console.log(agesTimesTwo)
+
+const agesTimesTwoLong = personsInfo.map(function(person) {
+  return person.age * 2
+})
+console.log(agesTimesTwoLong)
+
 // 10. Start with an array of numbers and create a new array with each number converted into a string.
 // For example, [1, 2, 3] becomes ["1", "2", "3"].
+
+const numberStrings = [1, 2, 3]
+
+const numbersToStrings = numberStrings.map(number => number.toString())
+console.log(numbersToStrings)
+
+const numbersToStringsLong = numberStrings.map(function(number) {
+  return number.toString()
+})
+console.log(numbersToStringsLong)
