@@ -65,11 +65,10 @@ peopleInfo.forEach(function(person) {
 })
 console.log(peoplesName)
 
-let peoplesNames = []
+let peoplesNameLong = []
 
-peopleInfo.forEach(person => peoplesNames.push(person.name))
-console.log(peoplesNames)
-
+peopleInfo.forEach(person => peoplesNameLong.push(person.name))
+console.log(peoplesNameLong)
 
 // .map
 
