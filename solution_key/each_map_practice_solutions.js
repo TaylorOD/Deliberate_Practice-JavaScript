@@ -30,6 +30,7 @@ console.log(numbersTimesThreeMapLong)
 // #     For example, ["hello", "goodbye"] becomes ["HELLO", "GOODBYE"]. Use .forEach and .map.
 
 // .forEach
+
 let strings = ["hello", "goodbye"]
 let stringsUpcasedForEach = []
 
@@ -85,8 +86,28 @@ console.log(personNameLong)
 
 // .forEach
 
+let numbers = [1, 2, 3]
+let numbersPlusSeven = []
+
+numbers.forEach(number => numbersPlusSeven.push(number + 7))
+console.log(numbersPlusSeven)
+
+let numbersPlusSevenLong = []
+
+numbers.forEach(function(number) {
+  numbersPlusSevenLong.push(number + 7)
+})
+console.log(numbersPlusSevenLong)
 
 // .map
+
+const numbersPlusSevenMap = numbers.map(number => number + 7)
+console.log(numbersPlusSevenMap)
+
+const numbersPlusSevenMapLong = numbers.map(function(number) {
+  return number + 7
+})
+console.log(numbersPlusSevenMapLong)
 
 // #  5. Start with an array of strings and create a new array with each string's length.
 // #     For example, ["hello", "goodbye"] becomes [5, 7]. Use .forEach and .map.
