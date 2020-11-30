@@ -114,16 +114,58 @@ console.log(numbersPlusSevenMapLong)
 
 // .forEach
 
+let strings = ["hello", "goodbye"]
+
+let stringsLength = []
+
+strings.forEach(string => stringsLength.push(string.length))
+console.log(stringsLength)
+
+let stringsLengthLong = []
+
+strings.forEach(function(string) {
+  stringsLengthLong.push(string.length)
+})
+console.log(stringsLengthLong)
 
 // .map
+
+let stringsLengthMap = strings.map(string => string.length)
+console.log(stringsLengthMap)
+
+let stringsLengthMapLong = strings.map(function (string) {
+  return string.length
+})
+console.log(stringsLengthMapLong)
 
 // #  6. Start with an array of hashes and create a new array of number values from each hash's :age key.
 // #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [27, 16]. Use .forEach and .map.
 
+let personalInfo = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
+
 // .forEach
 
+let personalAgesLong = []
+
+personalInfo.forEach(function (person) {
+  personalAgesLong.push(person.age)
+})
+console.log(personalAgesLong)
+
+let personalAges = []
+
+personalInfo.forEach(person => personalAges.push(person.age))
+console.log(personalAges)
 
 // .map
+
+const personalAgesMap = personalInfo.map(person => person.age)
+console.log(personalAgesMap)
+
+const personalAgesMapLong = personalInfo.map(function (person) {
+  return person.age
+})
+console.log(personalAgesMapLong)
 
 // #  7. Start with an array of numbers and create a new array with each number divided by 2.
 // #     For example, [1, 2, 3] becomes [0.5, 1.0, 1.5]. Use .forEach and .map.
