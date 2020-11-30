@@ -170,10 +170,31 @@ console.log(personalAgesMapLong)
 // #  7. Start with an array of numbers and create a new array with each number divided by 2.
 // #     For example, [1, 2, 3] becomes [0.5, 1.0, 1.5]. Use .forEach and .map.
 
+let numbers = [1, 2, 3]
+
 // .forEach
 
+let numbersDividedLong = []
+
+numbers.forEach(function(number) {
+  numbersDividedLong.push(number / 2)
+})
+console.log(numbersDividedLong)
+
+let numbersDivided = []
+
+numbers.forEach(number => numbersDivided.push(number/2))
+console.log(numbersDivided)
 
 // .map
+
+const numbersDividedMap = numbers.map(number => number/2)
+console.log(numbersDividedMap)
+
+const numbersDividedMapLong = numbers.map(function (number) {
+  return number / 2
+})
+console.log(numbersDividedMapLong)
 
 // #  8. Start with an array of strings and create a new array with each string's first letter only.
 // #     For example, ["hello", "goodbye"] becomes ["h", "g"]. Use .forEach and .map.
