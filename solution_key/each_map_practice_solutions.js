@@ -217,10 +217,10 @@ console.log(stringsFirstLong)
 
 // .map
 
-stringsFirstMap = strings.map(string => string[0])
+const stringsFirstMap = strings.map(string => string[0])
 console.log(stringsFirstMap)
 
-stringsFirstMapLong = strings.map(function (string) {
+const stringsFirstMapLong = strings.map(function (string) {
   return string[0]
 })
 console.log(stringsFirstMapLong)
@@ -246,10 +246,10 @@ console.log(peopleAgeTimesTwoLong)
 
 // .map
 
-peopleAgeTimesTwoMap = peopleInfo.map(person => person.age * 2)
+const peopleAgeTimesTwoMap = peopleInfo.map(person => person.age * 2)
 console.log(peopleAgeTimesTwoMap)
 
-peopleAgeTimesTwoMapLong = peopleInfo.map(function (person) {
+const peopleAgeTimesTwoMapLong = peopleInfo.map(function (person) {
   return person.age * 2
 })
 console.log(peopleAgeTimesTwoMapLong)
@@ -257,7 +257,28 @@ console.log(peopleAgeTimesTwoMapLong)
 // # 10. Start with an array of numbers and create a new array with each number converted into a string.
 // #     For example, [1, 2, 3] becomes ["1", "2", "3"]. Use .forEach and .map.
 
+let numbers = [1, 2, 3]
+
 // .forEach
 
+let numbersToStrings = []
+
+numbers.forEach(number => numbersToStrings.push(number.toString()))
+console.log(numbersToStrings)
+
+let numbersToStringsLong = []
+
+numbers.forEach(function (number) {
+  numbersToStringsLong.push(number.toString())
+})
+console.log(numbersToStringsLong)
 
 // .map
+
+const numbersToStringsMap = numbers.map(number => number.toString())
+console.log(numbersToStringsMap)
+
+const numbersToStringsMapLong = numbers.map(function (number) {
+  return number.toString()
+})
+console.log(numbersToStringsMapLong)
