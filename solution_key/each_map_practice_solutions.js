@@ -228,10 +228,31 @@ console.log(stringsFirstMapLong)
 // # 9.  Start with an array of hashes and create a new array of number values from each hash's :age key times 2.
 // #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [54, 32]. Use .forEach and .map.
 
+let peopleInfo = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
+
 // .forEach
 
+let peopleAgeTimesTwo = []
+
+peopleInfo.forEach(person => peopleAgeTimesTwo.push(person.age * 2))
+console.log(peopleAgeTimesTwo)
+
+let peopleAgeTimesTwoLong = []
+
+peopleInfo.forEach(function (person) {
+  peopleAgeTimesTwoLong.push(person.age * 2)
+})
+console.log(peopleAgeTimesTwoLong)
 
 // .map
+
+peopleAgeTimesTwoMap = peopleInfo.map(person => person.age * 2)
+console.log(peopleAgeTimesTwoMap)
+
+peopleAgeTimesTwoMapLong = peopleInfo.map(function (person) {
+  return person.age * 2
+})
+console.log(peopleAgeTimesTwoMapLong)
 
 // # 10. Start with an array of numbers and create a new array with each number converted into a string.
 // #     For example, [1, 2, 3] becomes ["1", "2", "3"]. Use .forEach and .map.
