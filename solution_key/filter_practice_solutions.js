@@ -27,6 +27,16 @@ console.log(winningStringsLong)
 // #  3. Start with an array of hashes and create a new array with only the hashes with prices greater than 5 (from the :price key).
 // #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}].
 
+let itemsInfo = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
+
+const itemsGreaterThanFive = itemsInfo.filter(item => item.price > 5)
+console.log(itemsGreaterThanFive)
+
+const itemsGreaterThanFiveLong = itemsInfo.filter(function (item) {
+  return item.price > 5
+})
+console.log(itemsGreaterThanFiveLong)
+
 // #  4. Start with an array of numbers and create a new array with only the even numbers.
 // #     For example, [2, 4, 5, 1, 8, 9, 7] becomes [2, 4, 8].
 
