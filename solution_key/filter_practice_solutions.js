@@ -53,6 +53,16 @@ console.log(evenNumbersLong)
 // #  5. Start with an array of strings and create a new array with only the strings shorter than 4 letters.
 // #     For example, ["a", "man", "a", "plan", "a", "canal", "panama"] becomes ["a", "man", "a", "a"].
 
+let strings = ["a", "man", "a", "plan", "a", "canal", "panama"]
+
+const stringsUnderFour = strings.filter(string => string.length < 4)
+console.log(stringsUnderFour)
+
+const stringsUnderFourLong = strings.filter(function (string) {
+  return string.length < 4
+})
+console.log(stringsUnderFourLong)
+
 // #  6. Start with an array of hashes and create a new array with only the hashes with names shorter than 6 letters (from the :name key).
 // #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}, {name: "book", price: 4}].
 
