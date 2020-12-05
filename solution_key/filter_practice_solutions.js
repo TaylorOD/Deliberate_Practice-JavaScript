@@ -117,3 +117,13 @@ console.log(itemsLessThanTenLong)
 
 // # 10. Start with an array of numbers and create a new array with only the odd numbers.
 // #     For example, [2, 4, 5, 1, 8, 9, 7] becomes [5, 1, 9, 7].
+
+let numbers = [2, 4, 5, 1, 8, 9, 7]
+
+const oddNumbers = numbers.filter(number => number % 2 === 1)
+console.log(oddNumbers)
+
+const oddNumbersLong = numbers.filter(function (number) {
+  return number % 2 === 1
+})
+console.log(oddNumbersLong)
