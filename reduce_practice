@@ -28,4 +28,4 @@
 # 10. Start with an array of numbers and compute the maximum number.
 #     For example, [5, 10, 8, 3] becomes 10.
 
-SOLUTIONS: 
+SOLUTIONS: https://github.com/TaylorOD/Deliberate_Practice-JavaScript/blob/master/solution_key/reduce_practice_solutions.js
