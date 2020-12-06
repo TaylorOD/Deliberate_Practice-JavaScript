@@ -27,7 +27,15 @@ console.log(stringsCombinedLong)
 // #  3. Start with an array of hashes and compute the sum of the prices (from the :price key).
 // #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes 105.
 
+let itemsInfo = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
 
+const itemPriceSum = itemsInfo.reduce((sum, item) => (sum + item.price), 0)
+console.log(itemPriceSum)
+
+const itemPriceSumLong = itemsInfo.reduce(function (sum, item) {
+  return sum + item.price
+}, 0)
+console.log(itemPriceSumLong)
 
 // #  4. Start with an array of numbers and compute the the minumum number.
 // #     For example, [5, 10, 8, 3, 9] becomes 3.
