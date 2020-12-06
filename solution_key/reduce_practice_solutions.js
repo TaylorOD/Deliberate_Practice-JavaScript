@@ -1,6 +1,16 @@
 // #  1. Start with an array of numbers and compute the sum of all the numbers.
 // #     For example, [5, 10, 8, 3] becomes 26.
 
+let numbers = [5, 10, 8, 3]
+
+const sumNumbers = numbers.reduce((sum, number) => sum + number )
+console.log(sumNumbers)
+
+const sumNumbersLong = numbers.reduce(function (sum, number) {
+  return sum + number
+})
+console.log(sumNumbersLong)
+
 // #  2. Start with an array of strings and combine them all into a single string.
 // #     For example, ["volleyball", "basketball", "badminton"] becomes "volleyballbasketballbadminton".
 
