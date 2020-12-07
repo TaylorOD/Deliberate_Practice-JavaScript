@@ -67,6 +67,17 @@ console.log(stringsLengthLong)
 // #  6. Start with an array of hashes and find the hash with the lowest price (from the :price key).
 // #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes {name: "pencil", price: 1}.
 
+let itemsInfo = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
+
+const lowestPriceItem = itemsInfo.reduce(function (lowestPrice, item) {
+  if (item.price < lowestPrice) {
+    return item
+  } else {
+    return lowestPrice
+  }
+}, itemsInfo[0].price)
+console.log(lowestPriceItem)
+
 // #  7. Start with an array of numbers and compute product of all the numbers.
 // #     For example, [5, 10, 8, 3] becomes 1200.
 
