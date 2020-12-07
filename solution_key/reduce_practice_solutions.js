@@ -81,6 +81,16 @@ console.log(lowestPriceItem)
 // #  7. Start with an array of numbers and compute product of all the numbers.
 // #     For example, [5, 10, 8, 3] becomes 1200.
 
+let numbers = [5, 10, 8, 3]
+
+const productOfNumbers = numbers.reduce((product, number) => (product * number), 1)
+console.log(productOfNumbers)
+
+const productOfNumbersLong = numbers.reduce(function (product, number) {
+  return product * number
+}, 1)
+console.log(productOfNumbersLong)
+
 // #  8. Start with an array of strings and combine them all into a single string, separated by dashes.
 // #     For example, ["volleyball", "basketball", "badminton"] becomes "-volleyball-basketball-badminton-".
 
