@@ -121,3 +121,14 @@ console.log(shortestItemName)
 
 // # 10. Start with an array of numbers and compute the maximum number.
 // #     For example, [5, 10, 8, 3] becomes 10.
+
+let numbersArray = [5, 10, 8, 3]
+
+const largestNumberInArray = numbersArray.reduce(function (targetNumber, currentNumber) {
+  if (targetNumber < currentNumber) {
+    return currentNumber
+  } else {
+    return targetNumber
+  }
+}, numbersArray[0])
+console.log(largestNumberInArray)
