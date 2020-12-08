@@ -94,6 +94,16 @@ console.log(productOfNumbersLong)
 // #  8. Start with an array of strings and combine them all into a single string, separated by dashes.
 // #     For example, ["volleyball", "basketball", "badminton"] becomes "-volleyball-basketball-badminton-".
 
+let sportsStrings = ["volleyball", "basketball", "badminton"]
+
+const sportsStringsCombo = sportsStrings.reduce((targetString, sportString) => (targetString + (sportString + "-")), "-")
+console.log(sportsStringsCombo)
+
+const sportsStringsComboLong = sportsStrings.reduce(function (targetString, sportString) {
+  return targetString + (sportString + "-")
+}, "-")
+console.log(sportsStringsComboLong)
+
 // #  9. Start with an array of hashes and find the hash with the shortest name (from the :name key).
 // #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes {name: "book", price: 4}.
 
